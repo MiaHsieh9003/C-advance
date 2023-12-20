@@ -1,0 +1,329 @@
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:4
+6
+i: 0
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0
+      byte_large_buf_mask: 0 0 0 0 0 0 0 1
+      type mixed queue: 4,6(2,8)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:1 2
+i: 1
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0
+      byte_large_buf_mask: 0 0 0 0 0 0 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:2 3
+i: 2
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0
+      byte_large_buf_mask: 0 0 0 0 0 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:3 4
+i: 3
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0
+      byte_large_buf_mask: 0 0 0 0 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:4
+5
+i: 4
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0 
+      byte_large_buf_mask: 0 0 0 1 1 1 1 1 
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 
+
+Which type you are going to operate? 
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:5 6
+i: 5
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0 
+      byte_large_buf_mask: 0 0 1 1 1 1 1 1 
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 
+
+Which type you are going to operate? 
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:6 7
+i: 6
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0 
+      byte_large_buf_mask: 0 1 1 1 1 1 1 1 
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:7 8
+i: 7
+      byte_small_buf_mask: 0 0 0 0 0 0 0 0
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:8 9
+      byte_small_buf_mask: 0 0 0 0 0 0 1 1 
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+
+2
+  Enter id and score:9 10
+      byte_small_buf_mask: 0 0 0 0 1 1 1 1 
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 9,10(2,2)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:9
+9
+      byte_small_buf_mask: 0 0 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 9,10(2,2) 9,9(2,4) 
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+4
+  Enter an ID to remove 9
+target type: 2, location: 2, id: 9     
+target next type: 2, location: 4, id: 9
+      byte_small_buf_mask: 0 0 1 1 0 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 9,9(2,4)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+4
+  Enter an ID to remove 9
+target type: 2, location: 4, id: 9
+      byte_small_buf_mask: 0 0 0 0 0 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+1
+  Enter id and score:4 5
+i: 2
+      byte_small_buf_mask: 0 0 0 0 0 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:7 8
+      byte_small_buf_mask: 0 0 0 1 1 1 1 1 
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2) 7,8(2,3)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:11 22
+      byte_small_buf_mask: 0 1 1 1 1 1 1 1 
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 4,6(2,8) 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2) 7,8(2,3) 11,22(2,5)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+4
+  Enter an ID to remove 4
+target type: 2, location: 8, id: 4
+target next type: 2, location: 9, id: 1
+      byte_small_buf_mask: 0 1 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 0
+      type mixed queue: 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2) 7,8(2,3) 11,22(2,5)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+1
+  Enter id and score:7 8
+i: 7
+      byte_small_buf_mask: 1 1 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 0
+      type mixed queue: 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2) 7,8(2,3) 11,22(2,5) 7,8(1,7)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+1
+  Enter id and score:44 55
+i: 0
+      byte_small_buf_mask: 1 1 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 1 1
+      type mixed queue: 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2) 7,8(2,3) 11,22(2,5) 7,8(1,7) 44,55(1,8)       
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+3
+  Enter an ID to remove 44
+target type: 1, location: 8, id: 44
+      byte_small_buf_mask: 1 1 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 0 0
+      type mixed queue: 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 4,5(1,2) 7,8(2,3) 11,22(2,5) 7,8(1,7)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+3
+  Enter an ID to remove 4
+target type: 1, location: 2, id: 4
+target next type: 2, location: 3, id: 7
+      byte_small_buf_mask: 1 1 1 1 1 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 1 0 0
+      type mixed queue: 1,2(2,9) 2,3(2,10) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 7,8(2,3) 11,22(2,5) 7,8(1,7)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+4
+  Enter an ID to remove 2
+target type: 2, location: 10, id: 2
+target next type: 2, location: 11, id: 3
+      byte_small_buf_mask: 1 1 1 1 1 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 0 0 0
+      type mixed queue: 1,2(2,9) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 7,8(2,3) 11,22(2,5) 7,8(1,7)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+3
+  Enter an ID to remove 1
+    Cannot find the target node 
+      byte_small_buf_mask: 1 1 1 1 1 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 0 0 0
+      type mixed queue: 1,2(2,9) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 7,8(2,3) 11,22(2,5) 7,8(1,7)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:7
+1
+i: 0
+      byte_small_buf_mask: 1 1 1 1 1 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 0 0 1
+      type mixed queue: 1,2(2,9) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 7,8(2,3) 11,22(2,5) 7,8(1,7) 7,1(2,8)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+3
+  Enter an ID to remove 7
+target type: 1, location: 7, id: 7
+target next type: 2, location: 8, id: 7
+      byte_small_buf_mask: 0 1 1 1 1 0 1 1
+      byte_large_buf_mask: 1 1 1 1 1 0 0 1
+      type mixed queue: 1,2(2,9) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 7,8(2,3) 11,22(2,5) 7,1(2,8)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+1
+  Enter id and score:4 5
+i: 2
+      byte_small_buf_mask: 0 1 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 0 0 1
+      type mixed queue: 1,2(2,9) 3,4(2,11) 4,5(2,12) 5,6(2,13) 6,7(2,14) 7,8(2,15) 8,9(2,0) 7,8(2,3) 11,22(2,5) 7,1(2,8) 4,5(1,2)
+
+Which type you are going to operate?
+1. Add a type 1 (small) item
+2. Add a type 2 (big) item
+3. Remove a type 1 item with a specific Id
+4. Remove a type 2 item with a specific Id
+2
+  Enter id and score:5 7
+i: 1
+      byte_small_buf_mask: 0 1 1 1 1 1 1 1
+      byte_large_buf_mask: 1 1 1 1 1 0 1 1
+Segmentation fault (core dumped)
