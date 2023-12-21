@@ -21,7 +21,7 @@ int enqueue_node(tQueue *queue, int id, int score, int data_type)
 {
     tQueueNode *newptr = NULL;
     int mem_location;
-    our_malloc ( data_type+1, (void *)&newptr, &mem_location);
+    our_malloc ( data_type, (void **)&newptr, &mem_location);
     if (newptr == NULL)
     {
         printf("    Enqueue False!!! \n");
@@ -31,7 +31,6 @@ int enqueue_node(tQueue *queue, int id, int score, int data_type)
         newptr->score = score;
         newptr->data_type = data_type;
         newptr->location = mem_location;
-        // printf("new loc:%d\n",newptr->location);
         newptr->next = NULL;
 
         if(queue->rear == NULL){
@@ -52,7 +51,7 @@ int enqueue_node(tQueue *queue, int id, int score, int data_type)
     return 1;
 }
 
-void dequeue_node(tQueue *queue, tQueueNode *target, int data_type)
+void dequeue_node(tQueue *queue, tQueueNode *target)
 {
     if(queue->front == target){
         queue->front = target->next;
@@ -67,16 +66,16 @@ void dequeue_node(tQueue *queue, tQueueNode *target, int data_type)
         target->next->prev = target->prev;
     }
     queue->count--;
-    our_free(data_type, target->location);
+    our_free(target->data_type, target->location);
 }
 
-tQueueNode * find_target_node(tQueue *queue, int id, int data_type)
+tQueueNode * find_target_node(tQueue *queue, int id)
 {
     tQueueNode *tar =  queue->front;
 
     while(tar != NULL)
     {
-        if(id != tar->id || ((tar->data_type) != data_type)) {//
+        if(id != tar->id) {
             tar = tar->next;
         }else{
             return tar;
@@ -91,10 +90,10 @@ void print_queue (tQueue *queue)
     int i;
     tQueueNode *target = queue->front;
 
-    printf("      queue content: ");    
+    printf("        queue content: ");    
     for (i = 0; i < queue->count; i++)
     {
-        printf ("%d(%d) ", target->id, target->location);
+        printf ("%d(type:%d, loc:%d) ", target->id, target->data_type, target->location);
         target = target->next;
     }
     printf("\n");
